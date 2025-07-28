@@ -1,0 +1,492 @@
+{
+  ".gitignore": {
+    "hash": "2095c12873824dd72eb9619541738afdbbe2129506ba4135b752d15e012a9452",
+    "size": 28,
+    "modified_time": "2024-10-03T15:50:11.441116"
+  },
+  ".gitlab-ci.yml": {
+    "hash": "b3ef64a77665bba8d406422ed4f3f05e60d1e0ea9611091113ca5cced91b0d49",
+    "size": 447,
+    "modified_time": "2024-10-03T15:50:11.441871"
+  },
+  "DTR_SWEN_344_DB3.png": {
+    "hash": "8cfd5152cb51cfb687482edaa9c3ef1b5a7f0aefd8792a5f720965407ea8e5e8",
+    "size": 102916,
+    "modified_time": "2024-10-03T15:50:11.442377"
+  },
+  "README.md": {
+    "hash": "8972468725cd56de98b90be50605b6838e508aed5034f15d3422fda8247a1470",
+    "size": 6363,
+    "modified_time": "2024-10-03T15:50:11.442877"
+  },
+  "requirements.txt": {
+    "hash": "0feaed21426878d934f2494bd2bec1cd1bb8a0dff674cdeb2b3be6315ca05540",
+    "size": 43,
+    "modified_time": "2024-10-03T15:50:11.443876"
+  },
+  "__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "modified_time": "2024-10-03T15:50:11.443376"
+  },
+  ".git/config": {
+    "hash": "6138d7087ddf535e79968ef0d0acc18d13137de43ebe96630e5e026098337ab2",
+    "size": 461,
+    "modified_time": "2024-10-03T15:56:12.340724"
+  },
+  ".git/description": {
+    "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "size": 73,
+    "modified_time": "2024-10-03T15:50:06.835238"
+  },
+  ".git/FETCH_HEAD": {
+    "hash": "8683e5de08f77cfdbea11460a52c3b741b3e562698a5867298505abded4bea47",
+    "size": 277,
+    "modified_time": "2024-10-20T21:23:28.134199"
+  },
+  ".git/HEAD": {
+    "hash": "eb1e0e383953ce62af2b1d9c03d4c068dd65d864d3e63800d33515c60b56de38",
+    "size": 24,
+    "modified_time": "2024-10-03T15:56:11.937358"
+  },
+  ".git/index": {
+    "hash": "48e4ed97c779c1baec65dde5a2dd6827cbe808869668a5aac1450aaad1400284",
+    "size": 1556,
+    "modified_time": "2024-10-03T16:03:57.262771"
+  },
+  ".git/ORIG_HEAD": {
+    "hash": "52e21f3024696cbacfff15c700a078cf479bead183a5c93cf0c07a2ee7e29652",
+    "size": 41,
+    "modified_time": "2024-10-03T15:56:15.724750"
+  },
+  ".git/packed-refs": {
+    "hash": "94ed0696643643b6e20a315e338c8a369b663b36130184825940c4d55b4c8928",
+    "size": 470,
+    "modified_time": "2024-10-03T15:50:11.431352"
+  },
+  ".vscode/settings.json": {
+    "hash": "62dcc0edffeafbcf4d6c929c477ba2599b1711b45aa475e0946bb9c50a646576",
+    "size": 196,
+    "modified_time": "2024-10-03T15:59:10.646768"
+  },
+  "config/gitlab-credentials.yml": {
+    "hash": "3244158bd8df2bf8dad3dcecd07a12340923c169a68fe24293d2238bbf1f8e67",
+    "size": 93,
+    "modified_time": "2024-10-03T15:50:11.443876"
+  },
+  "src/chat_main.py": {
+    "hash": "79da95b9f195b2d2f2679ee9665cb9463fb9a3281e1c013d8275590d6cbb5ecd",
+    "size": 4440,
+    "modified_time": "2024-10-03T15:56:11.927343"
+  },
+  "src/chat_sql_functions.py": {
+    "hash": "381daec05aca981f2fb789a495848af51747746456a566343fb8b2d83908b15d",
+    "size": 10852,
+    "modified_time": "2024-10-03T16:03:52.659019"
+  },
+  "src/swen344_db_utils.py": {
+    "hash": "cc5872779b8a3c3422c6d46374dc36f4d6465006f7a2577727f77c121398c6da",
+    "size": 1375,
+    "modified_time": "2024-10-03T15:50:11.445500"
+  },
+  "src/__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "modified_time": "2024-10-03T15:50:11.444376"
+  },
+  "tests/chat_init.sql": {
+    "hash": "b12a83cb503edd848acb48d62bd13fa3e979af6654fb959a694cfb3e9fdd169c",
+    "size": 4302,
+    "modified_time": "2024-10-03T15:56:11.928848"
+  },
+  "tests/insert_community_chats.sql": {
+    "hash": "eef12cbc976b5bbe5fae566fc2c1bb509e450233b3108d70ee6dbe3b5d089d40",
+    "size": 774,
+    "modified_time": "2024-10-03T15:56:11.928848"
+  },
+  "tests/test_chat.py": {
+    "hash": "781f5c1bc7745f6953f29e8ecb540caea450f19b80c41fe28cb71911caef21f3",
+    "size": 14959,
+    "modified_time": "2024-10-03T16:03:57.262771"
+  },
+  "tests/test_postgresql.py": {
+    "hash": "aff85c304be99ee7b67837a230373e52bac5d62f041d7dd5e8cd8970a84a595e",
+    "size": 309,
+    "modified_time": "2024-10-03T15:50:11.446998"
+  },
+  "tests/whos_on_first.csv": {
+    "hash": "e588ed49a17bdc85fd0fd2e4e53f5c39d73e87eb890c94ec6fd677e3392ffc15",
+    "size": 7544,
+    "modified_time": "2024-10-03T15:50:11.446998"
+  },
+  "tests/__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "modified_time": "2024-10-03T15:50:11.445500"
+  },
+  ".git/hooks/applypatch-msg.sample": {
+    "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "size": 478,
+    "modified_time": "2024-10-03T15:50:06.836248"
+  },
+  ".git/hooks/commit-msg.sample": {
+    "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "size": 896,
+    "modified_time": "2024-10-03T15:50:06.836744"
+  },
+  ".git/hooks/fsmonitor-watchman.sample": {
+    "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "size": 4726,
+    "modified_time": "2024-10-03T15:50:06.837745"
+  },
+  ".git/hooks/post-update.sample": {
+    "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "size": 189,
+    "modified_time": "2024-10-03T15:50:06.837745"
+  },
+  ".git/hooks/pre-applypatch.sample": {
+    "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "size": 424,
+    "modified_time": "2024-10-03T15:50:06.838246"
+  },
+  ".git/hooks/pre-commit.sample": {
+    "hash": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "size": 1643,
+    "modified_time": "2024-10-03T15:50:06.838747"
+  },
+  ".git/hooks/pre-merge-commit.sample": {
+    "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "size": 416,
+    "modified_time": "2024-10-03T15:50:06.839247"
+  },
+  ".git/hooks/pre-push.sample": {
+    "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "size": 1374,
+    "modified_time": "2024-10-03T15:50:06.839247"
+  },
+  ".git/hooks/pre-rebase.sample": {
+    "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "size": 4898,
+    "modified_time": "2024-10-03T15:50:06.840242"
+  },
+  ".git/hooks/pre-receive.sample": {
+    "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "size": 544,
+    "modified_time": "2024-10-03T15:50:06.840742"
+  },
+  ".git/hooks/prepare-commit-msg.sample": {
+    "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "size": 1492,
+    "modified_time": "2024-10-03T15:50:06.840742"
+  },
+  ".git/hooks/push-to-checkout.sample": {
+    "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "size": 2783,
+    "modified_time": "2024-10-03T15:50:06.841244"
+  },
+  ".git/hooks/sendemail-validate.sample": {
+    "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "size": 2308,
+    "modified_time": "2024-10-03T15:50:06.841746"
+  },
+  ".git/hooks/update.sample": {
+    "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "size": 3650,
+    "modified_time": "2024-10-03T15:50:06.842247"
+  },
+  ".git/info/exclude": {
+    "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "size": 240,
+    "modified_time": "2024-10-03T15:50:06.842747"
+  },
+  ".git/logs/HEAD": {
+    "hash": "9e89d4f50a59b0f8d4dcec41dc617e4ec0e58714bbc17a90797fb6fdc226ed5a",
+    "size": 393,
+    "modified_time": "2024-10-03T15:56:11.937358"
+  },
+  ".git/logs/refs/heads/db4-dev": {
+    "hash": "e7e80eedae389be2e3cdc69a9c6cae2641fdce3589373763c0e1bac1ad4a9c04",
+    "size": 186,
+    "modified_time": "2024-10-03T15:56:11.932857"
+  },
+  ".git/logs/refs/heads/main": {
+    "hash": "ff3817e338ab49b5c17be4948f44b21833056370ff9f0be2b42d12ab19a3ecbd",
+    "size": 218,
+    "modified_time": "2024-10-03T15:50:11.436363"
+  },
+  ".git/logs/refs/remotes/origin/db4-dev": {
+    "hash": "c11a7cbde4b97aab43e05995b9023b731c0f617ce9e4d3d6c64a3aa663a32b2c",
+    "size": 156,
+    "modified_time": "2024-10-03T15:51:16.498811"
+  },
+  ".git/logs/refs/remotes/origin/HEAD": {
+    "hash": "ff3817e338ab49b5c17be4948f44b21833056370ff9f0be2b42d12ab19a3ecbd",
+    "size": 218,
+    "modified_time": "2024-10-03T15:50:11.433353"
+  },
+  ".git/logs/refs/remotes/origin/main": {
+    "hash": "1578cdb263828c999d0f85e6da2d57ee2520af06f0764e2ca9e8464a464adf7a",
+    "size": 157,
+    "modified_time": "2024-10-09T20:01:11.848154"
+  },
+  ".git/objects/04/49c7753e27eb6b39afe5c0b82ed7c26b26bfee": {
+    "hash": "6f8ae140b0a96cad72b3f97ae4d7ba6c488cf47b4dd12968a0e062d8351d1723",
+    "size": 792,
+    "modified_time": "2024-10-09T20:01:11.783872"
+  },
+  ".git/objects/0b/464628e6470f73fdfa7717e644b72f45654886": {
+    "hash": "ad1d6849cfde4dcaa56455a08d0468d1d1b26a0fe8abcb7ac71b87fe6aca88dd",
+    "size": 1427,
+    "modified_time": "2024-10-03T15:51:16.465702"
+  },
+  ".git/objects/0d/fbd474ff93b8a6d7bcb2c7c01ff900e4da87f8": {
+    "hash": "70a7d125a546d2ba5de77840eddc336d252ed74b33a8cd6a86a620a714bc4553",
+    "size": 1607,
+    "modified_time": "2024-10-09T20:01:11.790575"
+  },
+  ".git/objects/18/383db8eb90a417ba3d2dab5cc1accd571e5438": {
+    "hash": "5a6b79d41417de15458ab1a86a124852b50b4b8b719c872fab13a488e5baaeb3",
+    "size": 249,
+    "modified_time": "2024-10-09T20:01:09.914951"
+  },
+  ".git/objects/1e/f58dcfc81333f3b2d8d0786a3d1a687a94cbc4": {
+    "hash": "edaba381e90deb9eff94729df21605accde31d4e3fd7d1ee02f3cf434ac7714e",
+    "size": 1500,
+    "modified_time": "2024-10-09T20:01:11.794076"
+  },
+  ".git/objects/21/3691ba9ea4b67ee1ab47cf5cd39ca16aaa194c": {
+    "hash": "01fe4d588cbf56ad2e5f255676496d6d80ce844a115db192f23e94392f1120e1",
+    "size": 191,
+    "modified_time": "2024-10-09T20:01:10.193839"
+  },
+  ".git/objects/2f/f94d99fdb1a3e586174c89be9a9bec53ee0605": {
+    "hash": "c636637543bee0421f5f1f62c6d1a80cc7de706c4a60c0871f8fadbc411ecced",
+    "size": 170,
+    "modified_time": "2024-10-03T15:51:16.457189"
+  },
+  ".git/objects/31/52de2abb57738d691202ac158e55b0577624f6": {
+    "hash": "b84e77417cda9b6575f835a079f4f68a916f6b047102938570b20f1b8d779a2a",
+    "size": 173,
+    "modified_time": "2024-10-09T20:01:10.093854"
+  },
+  ".git/objects/3c/df64010c1a8e85c93ae8cfee507e702e9048a0": {
+    "hash": "63201cfe35980cf938030b129b52fd132b419a5dbba000a8791f72a35ea999f4",
+    "size": 361,
+    "modified_time": "2024-10-09T20:01:10.363729"
+  },
+  ".git/objects/40/5d2b251c0f1740c9642a5fbcba2282d31ddedd": {
+    "hash": "f144343b46a9996c002cb858120f9d3f4e305e4fadf942fa6e4b8ea0fd96e8d2",
+    "size": 360,
+    "modified_time": "2024-10-09T20:01:10.746332"
+  },
+  ".git/objects/4e/a17de7fa98ed0e359130586be670f2c9658d4e": {
+    "hash": "75f25f472debf7b6ef84baa6fe63a59094075fbf03ac1f7c54f60609296cf9d9",
+    "size": 172,
+    "modified_time": "2024-10-09T20:01:09.972006"
+  },
+  ".git/objects/4f/cf196db690d43041736c960a2e106ce0a50809": {
+    "hash": "85874122d5fdd4e469842ee740310e633a769bb5b669005455ed9e6cfc4acd08",
+    "size": 171,
+    "modified_time": "2024-10-09T20:01:11.760832"
+  },
+  ".git/objects/50/cddd1aae3dc48edb1ff70601a11bfb36a9c90d": {
+    "hash": "ca30c583c424d0b77e76a961ec8e7df45751af02337eb4ccf4be2b5fdf9065cf",
+    "size": 171,
+    "modified_time": "2024-10-09T20:01:10.559486"
+  },
+  ".git/objects/51/3442b4adc5cbb67510ddc7f65600f30acd8471": {
+    "hash": "f55b518ebd8ee08a4a938c4243d02f80d9d973fd9647ba22409fcb590bc467e7",
+    "size": 272,
+    "modified_time": "2024-10-09T20:01:09.791585"
+  },
+  ".git/objects/57/232e5f5fba307f8a5019f6c99b3938af3018a6": {
+    "hash": "00c69268e25a2aafb25654410805bbd84aa7b2637b3baf452fe72d75aa68a25f",
+    "size": 243,
+    "modified_time": "2024-10-09T20:01:11.773340"
+  },
+  ".git/objects/69/b5c7c66a9616af47e00ed6968b6324cff8ad03": {
+    "hash": "189d099bf6d101bf03595265fdc27491166b013ef3b7e08932aa4c45e3775744",
+    "size": 178,
+    "modified_time": "2024-10-09T20:01:10.033590"
+  },
+  ".git/objects/6c/98ad1fc775888ccc3f3e2e13b6ed0c262ddfaf": {
+    "hash": "f15b9b94b15bffe42aa860bbbd7d1d0ffc6ae989012df6a2c0ab957ba25bcef1",
+    "size": 243,
+    "modified_time": "2024-10-09T20:01:11.055367"
+  },
+  ".git/objects/6e/ee619cd1ccb01afd5cd6d95c8e7c55069374a4": {
+    "hash": "332ad9f0436691cdec3b2af213b66d71748e2f90e4df74a2b52da5ff16e61486",
+    "size": 4076,
+    "modified_time": "2024-10-03T15:51:16.470201"
+  },
+  ".git/objects/6f/c98f826940032469fb61fd40174e3f77a4dd49": {
+    "hash": "72ef3dd0bc9748fd64d378f0d32488addad5ecae1eb78e08bb0dcad990efa65a",
+    "size": 1509,
+    "modified_time": "2024-10-03T15:51:16.459690"
+  },
+  ".git/objects/72/128759f82f6e89da15387f7b8d8c46485dfb51": {
+    "hash": "feaf7b48f0a10337b8dedee8be438334d11c50787319880be7f1058695509a76",
+    "size": 330,
+    "modified_time": "2024-10-03T15:51:16.454684"
+  },
+  ".git/objects/78/540c8841351988298964e0bf4415c24d59f6ac": {
+    "hash": "917e00ece7558933f7c9ab32ed4472b9b88a9a324b1e3e8e32e2edb76fab9f36",
+    "size": 4832,
+    "modified_time": "2024-10-09T20:01:11.806090"
+  },
+  ".git/objects/7a/e6d6587df39d2df4b1be017d0e68e4899af688": {
+    "hash": "13cab725399cbcfa76de2aad0d4dc9c1ebaa68be6d893d9685474920393948a0",
+    "size": 299,
+    "modified_time": "2024-10-03T15:51:16.467700"
+  },
+  ".git/objects/93/d50f34a109ba690c34c77ee6f9e8d879d39f01": {
+    "hash": "72441330d0f7a1ae19774bac85bafd9a9a32f6d7c99fd425a12b18f149b65677",
+    "size": 2929,
+    "modified_time": "2024-10-03T15:51:16.461191"
+  },
+  ".git/objects/94/1a1c338e5efd0b85345c99edfd40f27aa414d2": {
+    "hash": "d1c6abeae95f3a39b587eab89d6ea5e51f9ef043cfbd1956d980a7cb3c9ad858",
+    "size": 243,
+    "modified_time": "2024-10-03T15:51:16.463190"
+  },
+  ".git/objects/99/bfdad42526a9eded196664e83b3fda727783af": {
+    "hash": "8644e512695daeb0c4063781ec300131575a39ca121477fc98fe1b9ef6ad92f7",
+    "size": 171,
+    "modified_time": "2024-10-09T20:01:10.899130"
+  },
+  ".git/objects/a1/48bc36549cbc15ace6fe0f313322c1aad0dd98": {
+    "hash": "4292813921a772c2b871b504acbbbbbdb2715bcc3921254de5069b435beedd9e",
+    "size": 330,
+    "modified_time": "2024-10-09T20:01:11.460808"
+  },
+  ".git/objects/a4/82714690e6d7797506d7e6e7a1e3f585f31450": {
+    "hash": "7ba95019e9b90454371b2227d36eda64d53ed9676f5593ba2b431c65a1421c45",
+    "size": 172,
+    "modified_time": "2024-10-03T15:51:16.451180"
+  },
+  ".git/objects/ad/b4cd5df442cf31fdf4cd6b1443f512e4ae4e6d": {
+    "hash": "5f05812f4251886d752ebb26e686dd49f8a32aeb51d89fea5441f2196864cd73",
+    "size": 3268,
+    "modified_time": "2024-10-09T20:01:11.797075"
+  },
+  ".git/objects/ae/733c3dec900e8c8714762cbf1ec8a19a213e9d": {
+    "hash": "dbe712e3b77811268b4a3618cafd754ea30ce73427b804576bd0964a0d10028c",
+    "size": 190,
+    "modified_time": "2024-10-09T20:01:09.856224"
+  },
+  ".git/objects/b9/44af82c4f1bc0c78a8421c89b5e165b9f919ee": {
+    "hash": "9bce43058ff12e7a6f8a5141be4e65a92b3be8345e2fcfa5e4cc42974630d471",
+    "size": 242,
+    "modified_time": "2024-10-09T20:01:10.642909"
+  },
+  ".git/objects/ba/864416457c1f0b01258aef9e4aec56220097b0": {
+    "hash": "ff5f5bd53d3b85d80b3e8f79da7a31a48513b4305430928f10a87f2e7afc9743",
+    "size": 4847,
+    "modified_time": "2024-10-09T20:01:11.803590"
+  },
+  ".git/objects/c5/448add152b9ae6481e17dadd370a65d65a6262": {
+    "hash": "f5bbfd331e605b59375d01ccc9e12c337c85e31504f1c13a0e91c047e1e1bd53",
+    "size": 360,
+    "modified_time": "2024-10-09T20:01:11.266406"
+  },
+  ".git/objects/ca/2950517f00a5f03cf1e1a9f57c82be8460c029": {
+    "hash": "42f41da281a72d2ada92100415c26b190d7a1723d6de4ad11b2754a9743fb6cc",
+    "size": 329,
+    "modified_time": "2024-10-09T20:01:11.570568"
+  },
+  ".git/objects/e1/ba0c3ebf935e3bc182a54976c2a6525180fdad": {
+    "hash": "b7670c03220966ef3f0679f14811f73e52c885260aa1e2677bb64da3cf51a05f",
+    "size": 788,
+    "modified_time": "2024-10-09T20:01:11.777846"
+  },
+  ".git/objects/e3/0d3d2602ec31122bac40bebc329d33a08d442f": {
+    "hash": "bb31ccc832dbd0bb59761a8764a9961c795568618d985ba31dcc463f7fee88d0",
+    "size": 4081,
+    "modified_time": "2024-10-03T16:03:54.029063"
+  },
+  ".git/objects/f1/e84ca6eded774fba7ec6bd1ac4d499dcd521e0": {
+    "hash": "5ac14ab58b1777ac30b901b9be744a2c67ee4c4d08ccdab79d2d11382dea165a",
+    "size": 3039,
+    "modified_time": "2024-10-09T20:01:11.800591"
+  },
+  ".git/objects/f9/f695a4ec02d9ddf153881b61bca439418146e7": {
+    "hash": "b4adc54e98060e932f26b9268a27fed5916e2eaa497a660e9171fda29de22d61",
+    "size": 1690,
+    "modified_time": "2024-10-09T20:01:11.786872"
+  },
+  ".git/objects/fb/bcd4733ec39487999d13e9b081fcaf0dfb9a55": {
+    "hash": "8e4125a8c7966db772b6553c66a74a3dcab63e07efd2837380cc3af5dd14f30a",
+    "size": 4789,
+    "modified_time": "2024-10-09T20:01:11.809102"
+  },
+  ".git/objects/pack/pack-0b32ad27b0e4bd5f9ff35264cf60f5e0c1784a2c.idx": {
+    "hash": "c7dc31d94fb0b14265c8d7720200f17ade88b15570bdcbf55dabe708090ecd3e",
+    "size": 4964,
+    "modified_time": "2024-10-03T15:50:11.380117"
+  },
+  ".git/objects/pack/pack-0b32ad27b0e4bd5f9ff35264cf60f5e0c1784a2c.pack": {
+    "hash": "ac04255625db272ee9336cdc4affeee18fdd2e4cf7a2bbef47d98a68141ec501",
+    "size": 66820,
+    "modified_time": "2024-10-03T15:50:11.379116"
+  },
+  ".git/objects/pack/pack-0b32ad27b0e4bd5f9ff35264cf60f5e0c1784a2c.rev": {
+    "hash": "40be7771209a80042f03919f6fe4d1a6ee7a24aa9d4d4b22eb1a4cd064c56070",
+    "size": 608,
+    "modified_time": "2024-10-03T15:50:11.381616"
+  },
+  ".git/refs/heads/db4-dev": {
+    "hash": "52e21f3024696cbacfff15c700a078cf479bead183a5c93cf0c07a2ee7e29652",
+    "size": 41,
+    "modified_time": "2024-10-03T15:56:11.932359"
+  },
+  ".git/refs/heads/main": {
+    "hash": "fbbd49b34e4f3d207025cb1af3e5fe44642c25539fe736a3758514a77fb2b61c",
+    "size": 41,
+    "modified_time": "2024-10-03T15:50:11.435356"
+  },
+  ".git/refs/tags/db4": {
+    "hash": "3e5520e147d121ef23051c4e67080b4719f3889e7af3398b5b3f4a125ced71a4",
+    "size": 41,
+    "modified_time": "2024-10-09T20:01:11.877694"
+  },
+  ".git/refs/remotes/origin/db4-dev": {
+    "hash": "52e21f3024696cbacfff15c700a078cf479bead183a5c93cf0c07a2ee7e29652",
+    "size": 41,
+    "modified_time": "2024-10-03T15:51:16.497812"
+  },
+  ".git/refs/remotes/origin/HEAD": {
+    "hash": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+    "size": 30,
+    "modified_time": "2024-10-03T15:50:11.433353"
+  },
+  ".git/refs/remotes/origin/main": {
+    "hash": "b7042127023ea19e371729fe2246329680a3c46c09bee78d85a23ce23057f65c",
+    "size": 41,
+    "modified_time": "2024-10-09T20:01:11.846645"
+  },
+  "src/__pycache__/swen344_db_utils.cpython-311.pyc": {
+    "hash": "8c540a9bf705f4aac27babffd9432fb380e66ffef5155d41c305c4d0f85307d8",
+    "size": 3439,
+    "modified_time": "2024-10-03T15:58:56.882385"
+  },
+  "src/__pycache__/__init__.cpython-311.pyc": {
+    "hash": "8929c0253cd857dbb108aba196762f5e9dc7751a955bf22102a32b10e4bbe7e7",
+    "size": 150,
+    "modified_time": "2024-10-03T15:58:56.869368"
+  },
+  "tests/__pycache__/test_chat.cpython-311.pyc": {
+    "hash": "457fc09ff46574bd6086d754d52cc039121a0aaa9b888b0b6e6530001ebd229a",
+    "size": 22100,
+    "modified_time": "2024-10-03T16:01:21.839257"
+  },
+  "tests/__pycache__/test_postgresql.cpython-311.pyc": {
+    "hash": "04e091b59e701bff88f421f633510527af3b04a15ac5f7f55f039b781b64e2dc",
+    "size": 1039,
+    "modified_time": "2024-10-03T15:58:56.891006"
+  },
+  "tests/__pycache__/__init__.cpython-311.pyc": {
+    "hash": "f985a98f8f40332cce0a0f8a1424e2e03f558f4231ea9544f4a113616ff2da4d",
+    "size": 152,
+    "modified_time": "2024-10-03T15:58:56.871378"
+  }
+}
