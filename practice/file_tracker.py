@@ -1,13 +1,12 @@
 from pathlib import Path
 import file_indexer_hasher
 import tracker_utils
-import json
 
-def get_user_selected_paths():
+def get_user_selected_paths() -> dict:
   print("Please enter the file paths you want to track.")
   print("Type 'done' when you are finished.\n")
 
-  selected = []
+  selected = {}
 
   while True:
     user_input = input("Enter file path (or 'done'): ").strip()
@@ -15,9 +14,23 @@ def get_user_selected_paths():
       break
     path = Path(user_input).resolve()
     if path.exists():
+      
+      # Get the path from other system to link to local path
+      linked_input = ""
+      linked_path_list = []
+      # Get a list of linked paths to the local path
+      while linked_input != "done":
+        linked_input = input(f"Enter the path on the other system to link to {path.as_posix()} (or 'done' to skip): ").strip()
+        if linked_input.lower() == 'done':
+          break
+        if not linked_input:
+          print("Path cannot be empty. Please try again.")
+
+        linked_path_list.append(linked_input)
+
       posix_path = path.as_posix()
-      selected.append(posix_path)
-      print(f"\tAdded: {posix_path}")
+      selected[posix_path] = linked_path_list
+      print(f"\n\tAdded: {posix_path} -> {', '.join(linked_path_list)}\n")
     else:
       print("\tThat path doesn't exist. Try again.")
 

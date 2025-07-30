@@ -1,1 +1,3 @@
-/file_indexes
+file_indexes/
+__pycache__/
+*.pyc

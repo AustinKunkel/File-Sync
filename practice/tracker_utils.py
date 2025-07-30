@@ -48,14 +48,14 @@ def display_tracked_paths():
       print(f"\t   Tracked On: {info['tracked_on']}")
       print(f"\t   Hash: {info['hash']}\n")
 
-def add_tracked_paths(new_paths: list):
+def add_tracked_paths(new_paths: dict):
   # if not path.exists() or not path.is_dir():
   #   print("Error: Path must exist and be a directory.")
   #   return
 
   paths = load_tracked_paths()
 
-  for path in new_paths:
+  for path, linked_paths in new_paths.items():
     path = Path(path).resolve()
     if not path.exists() or not path.is_dir():
       print(f"Error: {path} must exist and be a directory.")
@@ -65,5 +65,6 @@ def add_tracked_paths(new_paths: list):
     if posix_path not in paths:
             # Only add empty metadata here; metadata will be set after indexing
             paths[posix_path] = {}
+            paths[posix_path]['linked_paths'] = linked_paths
 
   save_tracked_paths(paths)
