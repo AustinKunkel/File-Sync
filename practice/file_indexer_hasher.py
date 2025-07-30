@@ -1,6 +1,5 @@
 from pathlib import Path
 import hashlib
-import os
 import json
 from datetime import datetime
 import re
@@ -40,7 +39,16 @@ def get_index_filename(folder_name: str) -> Path:
     sanitized_name = re.sub(r'[^\w\-_.]', '_', folder_name)
     return output_dir / f"{sanitized_name}_file_index.json"
 
-def save_index_to_file(index, folder_name):
+def load_index_from_file(folder_name: str) -> dict:
+    index_file = get_index_filename(folder_name)
+    if not index_file.exists():
+        print(f"No index file found for {folder_name}.")
+        return {}
+
+    with open(index_file, 'r') as f:
+        return json.load(f)
+
+def save_index_to_file(index, folder_name : str):
     output_file = get_index_filename(folder_name)
     
     with open(output_file, "w") as f:
