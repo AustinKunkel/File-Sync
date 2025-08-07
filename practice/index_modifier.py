@@ -9,33 +9,58 @@ def get_user_selected_paths() -> dict:
   selected = {}
 
   while True:
-    user_input = input("Enter file path (or 'done'): ").strip()
+    user_input = input("Enter local file path to track (or 'done'): ").strip()
     if user_input.lower() == 'done':
       break
     path = Path(user_input).resolve()
     if path.exists():
       
-      # Get the path from other system to link to local path
-      linked_input = ""
-      linked_path_list = []
       # Get a list of linked paths to the local path
-      while linked_input != "done":
-        linked_input = input(f"Enter the path on the other system to link to {path.as_posix()} (or 'done' to skip): ").strip()
-        if linked_input.lower() == 'done':
-          break
-        if not linked_input:
-          print("Path cannot be empty. Please try again.")
-
-        linked_path_list.append(linked_input)
+      linked_path_dict = handle_adding_linked_path()
 
       posix_path = path.as_posix()
-      selected[posix_path] = linked_path_list
-      print(f"\n\tAdded: {posix_path} -> {', '.join(linked_path_list)}\n")
+      selected[posix_path] = linked_path_dict
+
+      print(f"{posix_path} -> {', '.join(linked_path_dict.keys())}")
+      print("")
     else:
       print("\tThat path doesn't exist. Try again.")
 
   return selected
 
+def handle_adding_linked_path() -> list:
+  finished_input = ""
+  linked_path_dict = {}
+
+  while finished_input != "no" and finished_input != "n":
+    host_url = input("Please Enter the host URL to the remote system (often an IP address potentially with a port number): ")
+    user = input("Please enter the user for the remote system: ")
+    base_path = input("Please enter the base path from the remote url (typically /home/<user> on linux): ")
+    remote_path = input("Please enter the folder relative to the base path on the remote system: ")
+    inbox_path = input("Please enter the ABSOLUTE path to the desired inbox on the remote system: ")
+
+    base_path = base_path.rstrip("/") # remove trailing '/'
+    remote_path = remote_path.lstrip("/") # remove leading '/'
+
+    remote_path_dict = {}
+    remote_path_dict["host_url"] = host_url
+    remote_path_dict["user"] = user
+    remote_path_dict["base_path"] = base_path
+    remote_path_dict["remote_path"] = remote_path
+    remote_path_dict["inbox_path"] = inbox_path
+
+    full_remote_url = build_remote_url(user, host_url, base_path, remote_path)
+
+    linked_path_dict[full_remote_url] = remote_path_dict
+
+    finished_input = input("\nWould you like to add another remote path? (Y/N): ").strip().lower()
+  print("")
+
+  return linked_path_dict
+
+def build_remote_url(user, host_url, base_path, remote_path):
+  full_path = f"{base_path}/{remote_path}"
+  return f"{user}@{host_url}:{full_path}"
 
 def handle_add_paths():
   """Handles adding new paths to the tracked paths."""
@@ -53,7 +78,7 @@ def handle_add_paths():
   all_paths = tracker_utils.load_tracked_paths() # loads the folder paths and their metadata
 
   # now we index and hash the files in the tracked paths
-  print("\nIndexing files in the tracked paths...")
+  print("\nIndexing files in the tracked paths. This may take a minute...")
 
   for path, metadata in all_paths.items():
     folder_path = Path(path).resolve()
@@ -68,9 +93,9 @@ def handle_add_paths():
         continue
 
       # Index the files in the folder
-      index = file_indexer_hasher.build_file_index(folder_path)
-      file_indexer_hasher.save_index_to_file(index, folder_path.name)
-      print(f"File index created with {len(index)} entries.")
+      # index = file_indexer_hasher.build_file_index(folder_path)
+      # file_indexer_hasher.save_index_to_file(index, folder_path.name)
+      # print(f"File index created with {len(index)} entries.")
 
       print(f"\nUpdating folder tracking information for {folder_path}...")
       all_paths[path]['hash'] = new_hash
